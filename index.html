@@ -1,274 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link rel="stylesheet" href="./styles.css" />
-    <!-- material icon -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Arks Hotels</title>
+    <!-- custom css -->
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/main.css">
+    <!-- bootstrap css -->
     <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
       rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0"
+      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+      crossorigin="anonymous"
     />
   </head>
-
   <body>
-    <nav class="navbar">
-      <div>
-        <div class="logo">
-          <img src="./images/logo.png" alt="" />
-        </div>
-        <div class="navs">
-          <div class="nav-items">
-            <ul class="nav-links">
-              <a href=""><li class="nav-item">Home</li></a>
-              <a href=""><li class="nav-item">About</li></a>
-              <a href=""><li class="nav-item">Services</li></a>
-              <a href=""><li class="nav-item">Home</li></a>
-            </ul>
-          </div>
-          <div class="nav-toggle">
-            <span class="material-symbols-outlined"> menu </span>
-          </div>
-        </div>
-      </div>
-    </nav>
-    <!-- starting the body -->
-    <div class="container">
-      <div>
-        <div class="hero">
-          <img
-            src="./images/The Peninsula Shanghai.jpeg"
-            alt=""
-            class="hero-img"
-          />
-        </div>
-        <div class="hero-body">
-          <h1 class="hero-head">
-            Experience luxury <br />and comfort like never before.
-          </h1>
-          <p class="hero-muted">
-            Book your stay with us and indulge in world-class amenities.
-          </p>
-        </div>
-      </div>
-      <section class="about">
-        <div>
-          <div class="about-img-sec">
-            <img src="./images/about-img.jpg" alt="" />
-          </div>
-          <div class="about-text-sec">
-            <h2 class="about-text">
-              We're the leading<br />Hotel Service Providing in Nigeria!
-            </h2>
-            <p>
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-              Voluptatem odit voluptas quidem minus molestiae, dicta quam! Eum
-              natus aliquid sapiente autem architecto optio, veritatis veniam
-              corrupti? Amet perferendis excepturi cumque.
-            </p>
-            <p>
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-              Voluptatem odit voluptas quidem minus molestiae, dicta quam! Eum
-              natus aliquid sapiente autem architecto optio, veritatis veniam
-              corrupti? Amet perferendis excepturi cumque.
-            </p>
-            <a href="./book.html" class="about-btn"
-              >BOOK NOW
-              <span class="material-symbols-outlined"> chevron_right </span></a
-            >
-          </div>
-        </div>
-      </section>
-
-      <section class="services">
-        <div>
-          <div class="services-text">
-            <h2 class="">Our Services</h2>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum
-              suscipit quidem ipsum, commodi maxime, dolorem tenetur eaque sint
-              veniam illo quae quod nemo necessitatibus cum laborum beatae
-              veritatis possimus. Placeat!
-            </p>
-          </div>
-          <div class="services-icons">
-            <div class="service">
-              <div>
-                <div class="service-icon">
-                  <span class="material-symbols-outlined">
-                    restaurant_menu
-                  </span>
-                </div>
-                <h3>Eatery</h3>
-                <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Doloribus quod ad quisquam, maxime eligendi natus commodi
-                  veritatis quasi non labore nihil debitis numquam quidem
-                  reiciendis optio. Nesciunt officia iure totam.
-                </p>
-              </div>
-              <!-- <a href="" class="service-btn">Launch</a> -->
-            </div>
-            <!-- service end -->
-            <div class="service">
-              <div>
-                <div class="service-icon">
-                  <span class="material-symbols-outlined"> bed </span>
-                </div>
-                <h3>Resort</h3>
-                <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Doloribus quod ad quisquam, maxime eligendi natus commodi
-                  veritatis quasi non labore nihil debitis numquam quidem
-                  reiciendis optio. Nesciunt officia iure totam.
-                </p>
-              </div>
-              <!-- <a href="" class="service-btn">Launch</a> -->
-            </div>
-            <!-- service end -->
-            <div class="service">
-              <div>
-                <div class="service-icon">
-                  <span class="material-symbols-outlined">
-                    travel_explore
-                  </span>
-                </div>
-                <h3>Tour</h3>
-                <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Doloribus quod ad quisquam, maxime eligendi natus commodi
-                  veritatis quasi non labore nihil debitis numquam quidem
-                  reiciendis optio. Nesciunt officia iure totam.
-                </p>
-              </div>
-              <!-- <a href="" class="service-btn">Launch</a> -->
-            </div>
-            <!-- service end -->
-          </div>
-        </div>
-      </section>
-      <section class="available">
-        <div>
-          <div class="available-text-sec">
+    <!-- nav bar -->
+    <!-- Home -->
+    <section id="home">
+        <div class="container">
             <div>
-              <h2>Available Rooms</h2>
-              <p>
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Harum
-                omnis, provident quo quidem, commodi sed animi obcaecati quia
-                blanditiis voluptates pariatur voluptas eligendi minus labore,
-                dolorem minima sit placeat? Delectus!
-              </p>
-            </div>
-          </div>
-          <div class="available-room-sec">
-            <div>
-              <div class="room-container">
-                <div class="room">
-                  <div class="room-img">
-                    <img src="./images/Rooms/room-2.webp" />
-                  </div>
-                  <div class="room-text">
-                    <h2>Exlusive Safe Contain</h2>
-                    <p>
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                      Perspiciatis soluta magni asperiores eum iure quam est
-                      praesentium recusandae ducimus! Accusamus at perferendis
-                      ea saepe quas? Ipsum praesentium rerum ut itaque.
-                    </p>
-                    <a href="">Explore</a>
-                  </div>
-                </div>
-                <!-- room end -->
-                <div class="room">
-                  <div class="room-img">
-                    <img src="./images/Rooms/room-2.webp" />
-                  </div>
-                  <div class="room-text">
-                    <h2>Exlusive Safe Contain</h2>
-                    <p>
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                      Perspiciatis soluta magni asperiores eum iure quam est
-                      praesentium recusandae ducimus! Accusamus at perferendis
-                      ea saepe quas? Ipsum praesentium rerum ut itaque.
-                    </p>
-                    <a href="" class="room-btn">Explore</a>
-                  </div>
-                </div>
-                <!-- room end -->
-                <div class="room">
-                  <div class="room-img">
-                    <img src="./images/Rooms/room-2.webp" />
-                  </div>
-                  <div class="room-text">
-                    <h2>Exlusive Safe Contain</h2>
-                    <p>
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                      Perspiciatis soluta magni asperiores eum iure quam est
-                      praesentium recusandae ducimus! Accusamus at perferendis
-                      ea saepe quas? Ipsum praesentium rerum ut itaque.
-                    </p>
-                    <a href="">Explore</a>
-                  </div>
-                </div>
-                <!-- room end -->
-                <div class="room">
-                  <div class="room-img">
-                    <img src="./images/Rooms/room-2.webp" />
-                  </div>
-                  <div class="room-text">
-                    <h2>Exlusive Safe Contain</h2>
-                    <p>
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                      Perspiciatis soluta magni asperiores eum iure quam est
-                      praesentium recusandae ducimus! Accusamus at perferendis
-                      ea saepe quas? Ipsum praesentium rerum ut itaque.
-                    </p>
-                    <a href="">Explore</a>
-                  </div>
-                </div>
-                <!-- room end -->
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <section class="contact">
-        <div class="contact-container">
-          <h2>Feel Free to Ask?</h2>
-          <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Beatae
-            delectus reprehenderit dicta iure distinctio tempora nostrum vero.
-          </p>
-          <form action="">
-            <div>
-              <div class="form-group">
-                <label for="email">Name</label>
-                <input type="text" class="form-control" id="email" />
-              </div>
-              <div class="form-group">
-                <label for="email">Email</label>
-                <input type="email" class="form-control" id="email" />
-              </div>
-            </div>
-            <div>
-              <div class="form-group">
-                <label for="email">Message</label>
-                <textarea class="form-control"></textarea>
-              </div>
-              <div class="form-group">
-                <input
-                  type="submit"
-                  value="Send Message"
-                  class="form-control"
-                  id="email"
+              <div class="hero">
+                <img
+                  src="./images/The Peninsula Shanghai.jpeg"
+                  alt=""
+                  class="hero-img"
                 />
               </div>
+              <div class="hero-body">
+                <h1 class="hero-head">
+                  Experience luxury <br />and comfort like never before.
+                </h1>
+                <p class="hero-muted">
+                  Book your stay with us and indulge in world-class amenities.
+                </p>
+              </div>
             </div>
-          </form>
-        </div>
-      </section>
-    </div>
+    </section>
+    <!-- bootstrap script -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>

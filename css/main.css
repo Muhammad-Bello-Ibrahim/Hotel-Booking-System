@@ -1,0 +1,31 @@
+@font-face {
+    font-family: system-ui;
+    font-style: normal;
+    font-weight: 300;
+    src: local(".SFNSText-Light"), local(".HelveticaNeueDeskInterface-Light"), local(".LucidaGrandeUI"), local("Ubuntu Light"), local("Segoe UI Light"), local("Roboto-Light"), local("DroidSans"), local("Tahoma");
+  }
+  
+  /* Now, let's apply it on an element */
+  body {
+    font-family: "system-ui";
+  }
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .bg-primary{
+    background: #7a7fe7 !important;
+
+}
+.text-primary{
+    color: #7a7fe7 !important;
+}
+/* the light color */
+.bbb{
+    background: #f7f7ff;
+}
+a{
+    text-decoration: none;
+    
+}

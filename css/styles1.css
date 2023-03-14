@@ -1,33 +1,4 @@
-@font-face {
-    font-family: system-ui;
-    font-style: normal;
-    font-weight: 300;
-    src: local(".SFNSText-Light"), local(".HelveticaNeueDeskInterface-Light"), local(".LucidaGrandeUI"), local("Ubuntu Light"), local("Segoe UI Light"), local("Roboto-Light"), local("DroidSans"), local("Tahoma");
-  }
-  
-  /* Now, let's apply it on an element */
-  body {
-    font-family: "system-ui";
-  }
-  *{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  .bg-primary{
-    background: #7a7fe7 !important;
 
-}
-.text-primary{
-    color: #7a7fe7 !important;
-}
-/* the light color */
-.bbb{
-    background: #f7f7ff;
-}
-a{
-    text-decoration: none;
-}
 
   /* =============================================
             DESKTOP VIEWPORT STYLES
@@ -161,6 +132,7 @@ a{
     display: flex;
     align-items: center;
     padding: 35px 45px;
+    text-align: center;
   }
   .services-text h2{
     font-size: 62px;
@@ -210,6 +182,8 @@ a{
     align-items: center;
     align-self: flex-end;
   }
+  /* available-rooms */
+
   .available{
     padding: 45px 20px;
     
@@ -220,9 +194,28 @@ a{
     flex-direction: column;
     align-items: center;
   }
+  .available > div .available-btn{
+    color: #7a7fe7;
+    border:  2px solid #7a7fe7;
+    font-size: 1.2rem;
+    font-weight: 600;
+    border-radius: 3rem;
+    padding: 15px 20px;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    align-self: flex-end;
+  }
+  .available > div .available-btn:hover{
+    background: #7a7fe7;
+    color: #fff;
+     border:  2px solid #fff;
+  }
   .available-text-sec{
     padding: 20px 25px;
     margin: 20px auto;
+    text-align: center;
+    max-width: 700px;
   }
   .available-text-sec h2{
     font-size: 52px;
@@ -235,64 +228,54 @@ a{
     font-size: 2rem;
     color: #000;
   }
-  .available-room-sec{}
+  .available-room-sec{
+    padding: 20px 25px;
+    
+  }
   .room-container{
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 25px;
-    margin-top: 20px;
+    margin-top: 25px;
   }
-  .room{
-    padding: 25px 20px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    border-radius: 1rem;
-    box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+  .room-img{
+    width: 300px;
   }
-  .room:nth-child(3){
-    background: #7a7fe7;
-    height: 40rem;
-    color: #fff;
-  }
-  .room:nth-child(3) h2{
-    background: -webkit-linear-gradient(#e3f11b, #9898ed);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-  }
-  .room-img{}
   .room-img img{
-    border-top-left-radius: 1rem;
-    border-top-right-radius: 1rem;
     width: 100%;
-    box-shadow: 2px 2px 12px rgba(0,0,0,0.2);
+    border-radius: 15px;
+    /* border-top-left-radius: 2.3rem; */
+    /* border-bottom-right-radius: 2.3rem; */
+    
 
   }
-.room-text h2{
-  margin: 20px 0;
-    font-size: 32px;
-    background: -webkit-linear-gradient(#7a7fe7, #9898ed);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-}
-.room-text p{
-  font-size: 1.2rem;
-  margin-bottom: 20px;
-}
-.room-text .room-btn{
-  border: 2px solid #7a7fe7;
-  color: #7a7fe7;
-  font-size: 1.2rem;
-  padding: 10px 25px;
-  border-radius: 20px;
-  margin-bottom: 30px;
-}
+  .room{
+    max-width: 350px;
+    border-radius: 1.23rem;
+    padding: 30px;
+    
+    /* box-shadow:  2px 2px 5px rgba(0,0,0,0.7); */
+  }
+  .room-container .room-text{
+    padding: 20px;
+  }
+  .room-container .room-text span{
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin: 20px 0;
+  }
+  .room-container .room-text p{
+    font-size: 1.2rem;
+    margin-top: 20px;
+  }
+  
+/* contact */
+
 .contact{
   background: #7a7fe7;
   padding: 30px;
-}
+}  
 .contact-container{
   display: flex;
   align-items: center;
@@ -310,6 +293,9 @@ a{
   font-weight: 500;
   margin-bottom: 20px;
   color: #fff;
+  max-width: 450px;
+  text-align: center;
+  margin: 30px 0;
 }
 .contact-container form{
   display: flex;
@@ -331,7 +317,7 @@ a{
   outline: none;
   padding: 10px;
   width: 400px;
-  height: 150px;
+  height: 155px;
   border-radius: 1rem;
   margin: 5px;
   font-size: 1.2rem;
