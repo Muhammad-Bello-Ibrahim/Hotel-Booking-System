@@ -62,7 +62,6 @@ label, a{
     width: 100%;
     display: block;
     font-size: 1.3rem;
-    color: #7a7fe7;
 }
 .reg-btn{
     font-size: 1.2rem;
@@ -79,79 +78,9 @@ label, a{
     background: transparent;
     border: 2px solid #7a7fe7;
     transition: .2s ease-in-out;
-    transition: all .2s ease-in-out;
-
   }
-  .retrieve-get{
-    display: flex;
-    margin: 35px 0;
-    text-align: center;
-    justify-content: center;
-    gap: 40px;
-    font-size: 1.2rem;
-    font-weight: 500;
-   
-  }
-  .retrieve-get a{
-    color: #7a7fe7;
-  }
-  .retrieve:hover,
-  .get:hover{
-    border: 2px solid #7a7fe7;
-    padding: 10px 25px;
-    border-radius: 25px;
-    transition: all .2s ease-in-out;
-  }
-
-    /* =============================================
+   /* =============================================
   MOBILE VIEWPORT STYLES
   ================================================ */
-  @media screen and (max-width: 768px){
-   .main-container{
+  @media screen and (max-width: 768px){}
 
-   }
-   .main-container > div{
-    flex-direction: column;
-   }
-   .main-container > div .bg-site{
-    border-bottom-right-radius: 2rem;
-}
-.bg-site .img-container{
-    width: 100vw;
-    height: 45vh;
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    border-bottom-right-radius: 2rem;
-}
-.bg-site .img-container img{
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    border-bottom-right-radius: calc( 100% - 5px);
-    border-right: 2rem solid #7a7fe7;
-}
-.content-site{
-    z-index: 20;
-    justify-content: center;
-    align-items: center;
-    margin-top: 200px;
-}
-
-
-
-
-
-
-
-
-
-
-
-   .retrieve-get{
-    display: block;
-   }
-  }
-
-  
