@@ -1,0 +1,203 @@
+.page-container{
+}
+.page-container > div {
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    padding: 20px 30px;
+}
+.rooms-catalogue{
+
+    /* background: green; */
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 35px;
+}
+.rooms{
+    background: rgb(245, 241, 241);
+    width: 100vw;
+    height: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.rooms-catalogue .room-intro{
+    display: flex;
+    padding: 20px 50px;
+    margin: 20px 0;
+}
+.rooms-catalogue .room-intro:nth-child(2){
+    flex-direction: row-reverse;
+}
+.room-intro .text-intro{
+    max-width: 650px;
+    margin-top: 180px;
+    margin-right: 60px;
+}
+.text-intro h2{
+    font-size: 42px;
+    background: -webkit-linear-gradient(#dce46a, #7a7fe7);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.text-intro p{
+    font-size: 1.2rem;
+    color: #000;
+    margin: 20px 0;
+    line-height: 30px;
+}
+.video{
+    width: 800px;
+    height: 500px;
+    border-radius: .9rem;
+    margin-top: 50px;
+    margin-left: 50px;
+    object-fit: cover;
+}
+/* Lets fix when theres internet Access */
+.room-intro:nth-of-type(2){
+    flex-direction: row-reverse;
+    background: #7a7fe7;
+}
+.video:nth-of-type(2){
+    margin-left: -50px;
+}
+.text-intro:nth-of-type(2){
+    margin-right: -60px;
+}
+ /* Lets fix when theres internet Access */
+ 
+.room-pic-sec{
+    /* background: #7a7fe7; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+    align-items: center;
+    /* align-items: center; */
+}
+.room-pic-sec > h3{
+    /* font-size: 2rem; */
+    /* color: #7a7fe7; */
+    font-weight: 500;
+    margin: 40px 10px;
+    font-size: 42px;
+    background: -webkit-linear-gradient(#dce46a, #7a7fe7);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+    max-width: 700px;
+
+}
+.room-pic-sec > p{
+    text-align: center;
+    margin-top: -20px;
+    margin-bottom: 20px;
+    font-size: 1.2rem;
+    max-width: 700px;
+}
+.room-pic-sec .rooms > div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.room{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+    max-width: 380px;
+    /* box-shadow: .2px .2px .2px .2px #5784e4; */
+    margin: 15px;
+    padding: 25px 20px;
+    border-radius: 1.2rem;
+    border: 1px solid #7a7fe7;
+
+}
+.room:nth-child(2){
+    border: 2px solid #7a7fe7;
+    height: 600px;
+    display: flex;
+    justify-content: space-between;
+
+}
+.room:nth-child(2) .img-container{
+    margin-top: 30px;
+}
+.room:nth-child(2):hover{
+    background: -webkit-linear-gradient(#d36bf0, #7a7fe7);
+    color: #fff;
+}
+.room:nth-child(1):hover{
+    background: -webkit-linear-gradient(#dce46a, #7a7fe7);
+    color: #fff;
+}
+.room:nth-child(3):hover{
+    background: -webkit-linear-gradient(#dce46a, #7a7fe7);
+    color: #fff;
+}
+.room:hover{
+    transition: all .2s ease-in-out;
+    border: 2px solid #7a7fe7;
+    box-shadow: none;
+}
+.room-img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.room-img img{
+    border-radius: .5rem ;
+}
+.room p{
+    font-size: 1.2rem;
+    margin: 10px;
+}
+.room .room-btn{
+    display: flex;
+    justify-content: flex-end;
+}
+.room a{
+    display: flex;
+    font-size: 1.2rem;
+    /* align-self: flex-end; */
+    border: 1px solid #7a7fe7;
+    color: #7a7fe7;
+    padding: 5px;
+    border-radius: 2rem;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    margin: 10px 0;
+}
+.room:hover a{
+    color: #fff;
+    border: 1.5px solid #fff;
+}
+
+
+  /* =============================================
+  MOBILE VIEWPORT STYLES
+  ================================================ */
+  @media screen and (max-width: 768px){
+
+
+
+    
+    .room-intro{
+        /* flex-direction: column; */
+        padding: 10px 35px;
+
+    }
+    .rooms{
+        padding: 10px;
+    }
+    .rooms > div {
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+        margin: 20px 50px;
+    }
+  }

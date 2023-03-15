@@ -27,5 +27,131 @@
 }
 a{
     text-decoration: none;
+    font-weight: 500;
     
 }
+ul li{
+  list-style-type: none;
+}
+.serve::after{
+  content: " ";
+  background: #7a7fe7;
+  width: 45px;
+  height: 3px;
+  display: block;
+  border-radius: 13px;
+  margin: 6px 0;
+}
+/* header starts */
+.header{
+  padding: 10px;
+  background: #fff;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 20;
+  color: #7a7fe7;
+  }
+
+  .header > div{
+      display: flex;
+      align-items: center;
+      padding: 0 45px;
+      /* background: yellow; */
+      justify-content: space-between;
+  }
+  .logo{
+      font-size: 32px;
+      font-weight: 600;
+  }
+  .header a{
+      font-size: 1.2rem;
+      color: #000;
+  }
+  .header > div ul.navigations{
+      display: flex;
+  }
+  .navs{
+    display: flex;
+  }
+  .navs a{
+    color: #7a7fe7;
+  }
+  .header > div ul li{
+      margin: 13px;
+  }
+  .header span{
+    display: none;
+  }
+  
+  
+  /* header ends */
+   /* =============================================
+  MOBILE VIEWPORT STYLES
+  ================================================ */
+  @media screen and (max-width: 768px){
+    .header{
+      /* background: green; */
+      padding: 10px 5px;
+    }
+    .header > div{ 
+      display: flex;
+      justify-content: space-between;
+    }
+    .logo{
+      font-size: 23px;
+      /* z-index: 20; */
+      color: #7a7fe7;
+      font-weight: 500;
+    }
+    .header span{
+      display: block;
+      font-size: 1.3rem;
+      font-weight: 500;
+      z-index: 20;
+      color: #7a7fe7;
+      font-weight: 500;
+      /* margin-bottom: 60px; */
+      cursor: pointer;
+
+    }
+    .header > div .navigations{
+      display: flex;
+      flex-direction: column;
+    }
+    .navs{
+      display: none;
+    }
+    .navs.actived{
+      display: block;
+    }
+    .navigations.active{
+      position: fixed;
+      top: 0;
+      right: 0;
+      left: 0;
+      /* flex-direction: column; */
+      /* align-items: center; */
+      /* justify-content: center; */
+      color: #7a7fe7;
+      background: #fff;
+      transition: all .2s ease-in-out;
+      display: block;
+      margin-top: 25px;
+    }
+    .navs{
+      flex-direction: column;
+      display: none;
+      padding-left: 35px;
+      padding-top: 20px;
+    }
+    .header > div .navigations li a{
+      margin-top: 15px;
+      color: #7a7fe7;
+      font-weight: 500;
+    }
+    .serve::after{
+      display: none;
+    }
+  }

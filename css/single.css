@@ -1,5 +1,151 @@
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+.main{
+    padding: 20px 5rem;
+    margin-top: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.up-flow{
+    margin: 5rem 5%;
+    padding: 20px 4rem;
+    /* width: 100vw; */
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    gap: 65px;
+}
+.up-flow .up-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* width: 45vw; */
+}
+.up-flow .up-img img{
+    width: 550px;
+    height: 500px;
+    object-fit: cover;
+    border-radius: .5rem;
+    box-shadow: 12px 12px 12px 15px #9da0de;
+    transition: .2s;
+}
+.up-flow .up-text{}
+.up-text h2{
+    font-size: 3rem;
+}
+.up-flow .up-text p{
+    margin-top: 1rem;
+    font-size: 1.2rem;
+    font-weight: 500;
+    line-height: 30px;
+}
+.down-flow{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2% 5%;
+}
+.down-sec{}
+.down-sec p{
+    font-size: 1.2rem;
+    font-style: italic;
+    margin: 15px 0;
+}
+.down-img{
+    width: 45%;
+    display: flex;
+}
+.down-img img{
+    border-radius: .3rem;
+    margin: 0 8px;
+    width: 50%;
+    cursor: pointer;
+    object-fit: cover;
+    transition: .2s;
+}
+.down-img img:hover{
+    opacity: 0.4;
+
+}
+.down-blocks{
+    margin-left: -15rem;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.down-blocks .block-a{
+    display: flex;
+    /* justify-content: center; */
+    /* align-items: center; */
+}
+.down-blocks .block-b{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center;     */
+}
+.block-b > div {
+    display: flex;
+    
+}
+.block-a input,
+.block-b input{
+    width: 235px;
+    margin: 0 10px;
+}
+.block-a input{
+
+}
+.block-b p{
+    font-size: 1rem;
+    font-weight: 500;
+    font-style: italic;
+    margin: 15px;
+    text-align: left;
+}
+.block-c input{
+    width: 500px;
+    margin: 5px;
+}
+label{
+    display: block;
+    font-size: 1rem;
+    font-weight: 480;
+    margin: 10px 10px;
+}
+input{
+    border: 2px solid #7a7fe7;
+    color: #7a7fe7;
+    outline: none;
+    padding: 10px 25px;
+    border-radius: 3rem;
+    font-size: 1rem;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+input::placeholder{
+color: #7a7fe7;
+}
+.block-d{
+    display: flex;
+    justify-content: center;
+}
+.block-d button{
+    padding: 10px;
+    width: 235px;
+    margin: 15px 5px;
+    border-radius: 3rem;
+    outline: none;
+    border: none;
+    background: #7a7fe7;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 500;
 }
