@@ -1,0 +1,96 @@
+
+          <div class="checkbox-wrapper-16">
+            <label class="checkbox-wrapper">
+              <input type="checkbox" class="checkbox-input" />
+              <span class="checkbox-tile">
+                <span class="checkbox-icon">
+                  <div class="cart">
+                    <div>
+                      <div class="cart-img">
+                        <img src="./images/build.jpg" alt="" class="" />
+                      </div>
+                      <div class="cart-title">
+                        <p class="cart-name">Builded House</p>
+                        <div class="price-block">
+                          <p class="price">N 100</p>
+                          <p class="room-block">Block A: 1-4</p>
+                        </div>
+                        <p class="text-cart">
+                          Lorem ipsum dolor sit amet consectetur adipisicing
+                          elit. Accusantium architecto eveniet tempora fuga.
+                        </p>
+                      </div>
+                    </div>
+                    <p class="price-index">N1000.00</p>
+                  </div>
+                </span>
+                <!-- <span class="checkbox-label">Sketch</span> -->
+              </span>
+            </label>
+          </div>
+        </div>
+        <!-- cart end -->
+        <div>
+          <div class="checkbox-wrapper-16">
+            <label class="checkbox-wrapper">
+              <input type="checkbox" class="checkbox-input" />
+              <span class="checkbox-tile">
+                <span class="checkbox-icon">
+                  <div class="cart">
+                    <div>
+                      <div class="cart-img">
+                        <img src="./images/build.jpg" alt="" class="" />
+                      </div>
+                      <div class="cart-title">
+                        <p class="cart-name">Builded House</p>
+                        <div class="price-block">
+                          <p class="price">N 100</p>
+                          <p class="room-block">Block A: 1-4</p>
+                        </div>
+                        <p class="text-cart">
+                          Lorem ipsum dolor sit amet consectetur adipisicing
+                          elit. Accusantium architecto eveniet tempora fuga.
+                        </p>
+                      </div>
+                    </div>
+                    <p class="price-index">N1000.00</p>
+                  </div>
+                </span>
+                <!-- <span class="checkbox-label">Sketch</span> -->
+              </span>
+            </label>
+          </div>
+        </div>
+        <!-- cart end -->
+        <div>
+          <div class="checkbox-wrapper-16">
+            <label class="checkbox-wrapper">
+              <input type="checkbox" class="checkbox-input" />
+              <span class="checkbox-tile">
+                <span class="checkbox-icon">
+                  <div class="cart">
+                    <div>
+                      <div class="cart-img">
+                        <img src="./images/build.jpg" alt="" class="" />
+                      </div>
+                      <div class="cart-title">
+                        <p class="cart-name">Builded House</p>
+                        <div class="price-block">
+                          <p class="price">N 100</p>
+                          <p class="room-block">Block A: 1-4</p>
+                        </div>
+                        <p class="text-cart">
+                          Lorem ipsum dolor sit amet consectetur adipisicing
+                          elit. Accusantium architecto eveniet tempora fuga.
+                        </p>
+                      </div>
+                    </div>
+                    <p class="price-index">N1000.00</p>
+                  </div>
+                </span>
+                <!-- <span class="checkbox-label">Sketch</span> -->
+              </span>
+            </label>
+          </div>
+        </div>
+        <!-- cart end -->

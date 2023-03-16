@@ -52,7 +52,8 @@ ul li{
   right: 0;
   z-index: 20;
   color: #7a7fe7;
-  }
+  box-shadow: rgba(0, 0, 0, 0.1) -4px 9px 25px -6px;  }
+  
 
   .header > div{
       display: flex;
@@ -112,6 +113,8 @@ ul li{
       z-index: 20;
       color: #7a7fe7;
       font-weight: 500;
+      position: absolute;
+      left: 320px;
       /* margin-bottom: 60px; */
       cursor: pointer;
 
@@ -119,9 +122,13 @@ ul li{
     .header > div .navigations{
       display: flex;
       flex-direction: column;
+      margin-top: 50px;
     }
     .navs{
       display: none;
+      margin-left: 13rem;
+
+
     }
     .navs.actived{
       display: block;

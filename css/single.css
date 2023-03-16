@@ -148,4 +148,11 @@ color: #7a7fe7;
     color: #fff;
     font-size: 1rem;
     font-weight: 500;
+    cursor: pointer;
+}
+.block-d button:hover{
+    background: #fff;
+    border: 2px solid #7a7fe7;
+    color: #7a7fe7;
+    transition: .2s;
 }
