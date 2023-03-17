@@ -10,50 +10,38 @@
     <link rel="stylesheet" href="./css/checkout.css" />
   </head>
   <body>
-    <!-- main content -->
-    <section class="check-info">
-      <div class="up-flow">
-        <div class="up-img">
-          <img src="./images/The Peninsula Shanghai.jpeg" alt="" id="shower" />
-        </div>
-        <div class="up-text">
-          <div>
-            <h2>Checkout</h2>
-            <p>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-              Consequatur asperiores enim ab quasi vitae quibusdam voluptates
-              labore autem. Necessitatibus temporibus, in nesciunt asperiores
-              repudiandae explicabo similique sapiente commodi voluptatem.
-            </p>
+    <div class="container">
+      <section class="checkout">
+        <div class="up-blocks">
+          <h2>Order Summary</h2>
+          <div class="summary">
+            
           </div>
         </div>
-      </div>
-    </section>
-    <section class="checkout">
-      <div class="down-blocks">
-        <div class="block-a">
-          <div>
-            <label for="block">Cardholder Name</label>
-            <input type="text" placeholder="Firstname" />
-            <input type="text" placeholder="Lastname" />
+        <div class="down-blocks">
+          <div class="block-a">
+            <div>
+              <input type="text" placeholder="Firstname" />
+              <input type="text" placeholder="Lastname" />
+            </div>
+          </div>
+          <div class="block-c">
+            <input type="text" placeholder="Card Number" />
+          </div>
+          <div class="block-b">
+            <div>
+              <!-- <label for="from">FROM</label> -->
+              <input type="text" placeholder="cvv" class="cvv" />
+              <!-- <label for="to">TO</label> -->
+              <input type="date" placeholder="e.g 1-20" />
+            </div>
+          </div>
+          <div class="block-d">
+            <button type="submit">Pay Now</button>
           </div>
         </div>
-        <div class="block-c">
-          <input type="text" placeholder="Card Number" />
-        </div>
-        <div class="block-b">
-          <div>
-            <!-- <label for="from">FROM</label> -->
-            <input type="text" placeholder="cvv" class="cvv"/>
-            <!-- <label for="to">TO</label> -->
-            <input type="date" placeholder="e.g 1-20" />
-          </div>
-        </div>
-        <div class="block-d">
-          <button type="submit">Pay Now</button>
-        </div>
-      </div>
-    </section>
+      </section>
+    </div>
 
     <!-- custom script -->
     <script src="./Js/script.js"></script>

@@ -1,44 +1,20 @@
-.check-info{
-    padding: 20px 13rem;
-}
-.up-flow{
-    margin: 5rem 5%;
-    padding: 20px 4rem;
-    /* width: 100vw; */
-    display: flex;
-    flex-direction: row-reverse;
-    justify-content: center;
-    /* align-items: center; */
-    gap: 65px;
-}
-.up-flow .up-img{
+body{
     display: flex;
     justify-content: center;
     align-items: center;
-    /* width: 45vw; */
 }
-.up-flow .up-img img{
-    width: 600px;
-    height: 300px;
-    object-fit: cover;
-    border-radius: .5rem;
-    box-shadow: 12px 12px 12px 15px #9da0de;
-    transition: .2s;
-}
-.up-flow .up-text{}
-.up-text h2{
-    font-size: 3rem;
-}
-.up-flow .up-text p{
-    margin-top: 1rem;
-    font-size: 1.2rem;
-    font-weight: 500;
-    line-height: 30px;
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: red;
 }
 .checkout{
     display: flex;
     justify-content: center;
-    align-items: center;
+    /* align-items: center; */
+    padding: 2rem  4rem;
+    
 }
 .down-blocks{
     /* margin-left: -15rem; */
@@ -50,29 +26,39 @@
 }
 .down-blocks .block-a{
     display: flex;
-    /* justify-content: center; */
-    /* align-items: center; */
+    justify-content: center;
+    align-items: center;
+}
+.block-a > div {
+    display: flex;
 }
 .down-blocks .block-b{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    /* align-items: center;     */
+    align-items: center;    
 }
 .block-b > div {
     display: flex;
     
 }
 .block-a input{
-    width: 235px;
-    margin: 0 10px;
+    width: 50%;
+    /* margin: 5px 10px; */
+    display: flex;
 }
 .block-b .cvv{
-    width: 150px;
+    width: 200px;
 }
-.block-c input{
+.block-b input:last-child{
+    width: 300px;
+}
+.block-c {
     width: 500px;
     margin: 5px;
+}
+.block-c input{
+    width: 100%;
 }
 label{
     display: block;
@@ -92,6 +78,7 @@ input{
     font-size: 1rem;
     font-weight: 500;
     text-transform: uppercase;
+    margin: 3px;
 }
 input[type="date"]{
     width: 340px;
@@ -105,14 +92,14 @@ color: #7a7fe7;
 }
 .block-d button{
     padding: 10px;
-    width: 235px;
+    width: 500px;
     margin: 15px 5px;
     border-radius: 3rem;
     outline: none;
     border: none;
     background: #7a7fe7;
     color: #fff;
-    font-size: 1rem;
+    font-size: 1.2rem;
     font-weight: 500;
     cursor: pointer;
 }

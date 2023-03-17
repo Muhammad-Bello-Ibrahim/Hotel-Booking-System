@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Hotel Booking System</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="text-center my-5">Hotel Booking System</h1>
+
+      <!-- Form to input booking details -->
+      <form>
+        <div class="form-row">
+          <div class="form-group col-md-6">
+            <label for="inputName">Name</label>
+            <input
+              type="text"
+              class="form-control"
+              id="inputName"
+              placeholder="Enter your name"
+            />
+          </div>
+          <div class="form-group col-md-6">
+            <label for="inputEmail">Email</label>
+            <input
+              type="email"
+              class="form-control"
+              id="inputEmail"
+              placeholder="Enter your email"
+            />
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="form-group col-md-6">
+            <label for="inputCheckIn">Check-in Date</label>
+            <input
+              type="date"
+              class="form-control"
+              id="inputCheckIn"
+              placeholder="Enter check-in date"
+            />
+          </div>
+          <div class="form-group col-md-6">
+            <label for="inputCheckOut">Check-out Date</label>
+            <input
+              type="date"
+              class="form-control"
+              id="inputCheckOut"
+              placeholder="Enter check-out date"
+            />
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="form-group col-md-6">
+            <label for="inputRooms">Number of Rooms</label>
+            <input
+              type="number"
+              class="form-control"
+              id="inputRooms"
+              placeholder="Enter number of rooms"
+            />
+          </div>
+          <div class="form-group col-md-6">
+            <label for="inputGuests">Number of Guests</label>
+            <input
+              type="number"
+              class="form-control"
+              id="inputGuests"
+              placeholder="Enter number of guests"
+            />
+          </div>
+        </div>
+        <button type="submit" class="btn btn-primary">
+          Search Availability
+        </button>
+      </form>
+
+      <!-- Table to display available rooms -->
+      <table class="table mt-5">
+        <thead>
+          <tr>
+            <th scope="col">#</th>
+            <th scope="col">Room Type</th>
+            <th scope="col">Price per Night</th>
+            <th scope="col">Book Now</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">1</th>
+            <td>Single Room</td>
+            <td>$50</td>
+            <td>
+              <button type="button" class="btn btn-primary">Book Now</button>
+            </td>
+          </tr>
+          <tr>
+            <th scope="row">2</th>
+            <td>Double Room</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </body>
+</html>
